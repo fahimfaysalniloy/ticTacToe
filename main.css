@@ -1,5 +1,6 @@
 body {
   font-size: 18px;
+  background-color: purple;
 }
 .playground {
   display: flex;
@@ -59,7 +60,7 @@ div[data-round='true'] {
 }
 .score h3 {
   font-size: 30px;
-  color: purple;
+  color: yellow;
 }
 .container {
   display: flex;
@@ -67,10 +68,16 @@ div[data-round='true'] {
   font-size: 40px;
 }
 .container #greenScore {
-  color: green;
+  color: yellow;
+  background-color: green;
+  width: 80px;
+  border-radius: 20px;
 }
 .container #redScore {
-  color: red;
+  color: yellow;
+  background-color: red;
+  width: 80px;
+  border-radius: 20px;
 }
 button {
   background: yellow;
@@ -81,4 +88,20 @@ button {
   display: block;
   margin: 20px auto;
   border: 1px solid peachpuff;
+}
+button:hover {
+  background-color: white;
+}
+
+label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  margin-top: -40px;
+  color: yellow;
+}
+label:hover {
+  color: white;
+}
+#hard {
+  margin-left: 30px;
 }
